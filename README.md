@@ -18,8 +18,8 @@ the logout link in the navbar.</br>
 
 ## Credits
 
-Deployed to Heroku at: https://techblog-aditore.herokuapp.com/
-
+Deployed to Heroku at: 
+(https://kharis-tech-blog.herokuapp.com/)
 Code by: Khati Robertson</br>
 Github: [krober45](https://github.com/krober45)</br>
 
