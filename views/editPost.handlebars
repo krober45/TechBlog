@@ -1,0 +1,20 @@
+{{> postCard posts }}
+<div class="d-flex justify-content-center m-4">
+    <div class="card text-center col-4">
+        <h2 class="card-header">EDIT POST</h2>
+        <form id="editPost">
+            <div class="form-group">
+                <label>Title</label>
+                <input id="title" type="text" class="form-control" value="{{post.title}}" placeholder="Please type your new title">
+            </div>
+            <div class="form-group">
+                <label>Post Content</label>
+                <input id="content" type="text" class="form-control" value="{{post.content}}" placeholder="Please type new content">
+            </div>
+            <button type="submit" class="btn btn-primary">UPDATE</button>
+            <button type="button" class="deleteBtn btn btn-warning">DELETE</button>
+        </form> 
+    </div>
+</div>
+<script src="../../js/editPost.js"></script>
+<script src="../../js/deletePost.js"></script>

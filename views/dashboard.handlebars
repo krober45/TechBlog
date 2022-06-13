@@ -1,0 +1,14 @@
+{{#if posts.length}}
+<section>
+    <h2 class="text-center m-4">Posts By You!</h2>
+        {{#each posts as |post|}}
+            {{> dashboardPosts post}}
+        {{/each}}
+</section>
+{{/if}}
+
+<div class="d-flex justify-content-center m-4">
+    <button class="btn btn-warning" type="submit">
+        <a class="nav-link" href="/dashboard/new">Add Post</a>
+    </button>
+</div>
